@@ -44,11 +44,12 @@ const InvoiceInformation = ({ item = { amount: 0, subject: '' }, ...props }: any
   const subjectOnchange = (e) => { setSubject(e.target.value) }
   const amountOnChange = (e) => { setAmount(e.target.value) }
   const onSubmit = (e) => {
-    const values: IInvoiceItem = Object.keys(e).filter(e => e).reduce((prev, cur) => ({ ...prev, [cur]: e[cur] }), { amount: 0 })
+    const values = Object.keys(e).filter(e => e).reduce((prev, cur) => ({ ...prev, [cur]: e[cur] }), { amount: 0 }) || {}
+    const amountFromValue = values && values.amount.toString()
     if(isRetrieve) {
       props.onNext({ ...values })
     } else {
-      props.onSubmit({ ...values, amount: parseInt(values.amount, 10)})
+      props.onSubmit({ ...values, amount: parseInt(amountFromValue, 10)})
     }
   }
 

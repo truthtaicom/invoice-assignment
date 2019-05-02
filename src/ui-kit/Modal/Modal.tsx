@@ -34,7 +34,7 @@ const StyledModalWrapper = styled.div<StyledModalWrapper>`
 
 const StyledModalContent = styled.div`
   position: relative;
-  background-color: #f3f3f3;
+  background-color: ${Colors.grey2};
   margin: auto;
   padding: 0;
   border: 1px solid #888;

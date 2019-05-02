@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import { Text, Button } from '../../../ui-kit'
+import * as Colors from '../../../ui-kit/Variables/Colors'
 
 export interface IInvoiceItem {
   id?: number,
@@ -68,11 +69,11 @@ const StyledInvoiceItem = styled.div<IStyledInvoiceItem>`
   cursor: pointer;
   padding: 1rem;
 
-  background-color: ${props => props.actived ? "#007bff30" : "#fff"}
-  color: ${props => props.actived ? '#007bff' : 'black' }
+  background-color: ${props => props.actived ? Colors.blue1 : Colors.white}
+  color: ${props => props.actived ? Colors.primary : Colors.black }
 
   &:hover {
-    background-color: #007bff30;
+    background-color: ${Colors.blue1};
   }
 
 
