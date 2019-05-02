@@ -6,7 +6,7 @@ In the project directory, you can run:
 
 ### `npm run storybook`
 
-Access Storybook interface
+Access Storybook interface.<br>
 Open http://localhost:6006 to view it in the browser.
 
 ### `npm start`
