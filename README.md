@@ -1,4 +1,4 @@
-#Invoice Assignment
+###Invoice Assignment
 
 ## Available Scripts
 
@@ -7,7 +7,7 @@ In the project directory, you can run:
 ### `npm run storybook`
 
 Access Storybook interface
-
+Open http://localhost:6006 to view it in the browser.
 
 ### `npm start`
 
