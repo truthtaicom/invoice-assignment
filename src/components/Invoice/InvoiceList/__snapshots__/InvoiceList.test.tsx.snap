@@ -1,0 +1,302 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvoiceList /> spec renders the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-cMljjf kNIQwG"
+      >
+        <div
+          class="sc-jAaTju jnhfra"
+        >
+          <div
+            class="sc-jDwBTQ dWtMUn"
+          >
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              Invoices List
+            </span>
+          </div>
+          <div
+            class="sc-gPEVay bFVaHF"
+          >
+            <button
+              class="sc-bdVaJa eMWQLK"
+              color="primary"
+            >
+               Add new invoice 
+            </button>
+          </div>
+        </div>
+        <div
+          class="sc-iRbamj bupFeE"
+        >
+          <div
+            class="sc-htoDjs bxSFQy"
+          >
+            <div
+              class="sc-kkGfuU bxPbff"
+            >
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                2018-01-01
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                Rent january
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                500
+                 
+                EUR
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                DE-12-1234-1234-12345-12
+              </span>
+              <div
+                class="sc-iAyFgw jeUPJC"
+              >
+                <button
+                  class="sc-bdVaJa eMWQLK"
+                  color="primary"
+                >
+                  Edit
+                </button>
+                <button
+                  class="sc-bdVaJa isSLun"
+                  color="danger"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+            <div
+              class="sc-kkGfuU bxPbff"
+            >
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                2018-01-02
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                Rent january
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                1500
+                 
+                EUR
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                DE-12-1234-1234-12345-12
+              </span>
+              <div
+                class="sc-iAyFgw jeUPJC"
+              >
+                <button
+                  class="sc-bdVaJa eMWQLK"
+                  color="primary"
+                >
+                  Edit
+                </button>
+                <button
+                  class="sc-bdVaJa isSLun"
+                  color="danger"
+                >
+                  Delete
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-cMljjf kNIQwG"
+    >
+      <div
+        class="sc-jAaTju jnhfra"
+      >
+        <div
+          class="sc-jDwBTQ dWtMUn"
+        >
+          <span
+            class="sc-gzVnrw fHvJOv"
+          >
+            Invoices List
+          </span>
+        </div>
+        <div
+          class="sc-gPEVay bFVaHF"
+        >
+          <button
+            class="sc-bdVaJa eMWQLK"
+            color="primary"
+          >
+             Add new invoice 
+          </button>
+        </div>
+      </div>
+      <div
+        class="sc-iRbamj bupFeE"
+      >
+        <div
+          class="sc-htoDjs bxSFQy"
+        >
+          <div
+            class="sc-kkGfuU bxPbff"
+          >
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              2018-01-01
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              Rent january
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              500
+               
+              EUR
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              DE-12-1234-1234-12345-12
+            </span>
+            <div
+              class="sc-iAyFgw jeUPJC"
+            >
+              <button
+                class="sc-bdVaJa eMWQLK"
+                color="primary"
+              >
+                Edit
+              </button>
+              <button
+                class="sc-bdVaJa isSLun"
+                color="danger"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+          <div
+            class="sc-kkGfuU bxPbff"
+          >
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              2018-01-02
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              Rent january
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              1500
+               
+              EUR
+            </span>
+            <span
+              class="sc-gzVnrw fHvJOv"
+            >
+              DE-12-1234-1234-12345-12
+            </span>
+            <div
+              class="sc-iAyFgw jeUPJC"
+            >
+              <button
+                class="sc-bdVaJa eMWQLK"
+                color="primary"
+              >
+                Edit
+              </button>
+              <button
+                class="sc-bdVaJa isSLun"
+                color="danger"
+              >
+                Delete
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

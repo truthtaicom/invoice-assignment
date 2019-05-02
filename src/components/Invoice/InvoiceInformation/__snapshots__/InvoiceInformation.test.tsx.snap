@@ -1,0 +1,452 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<InvoiceInformation /> spec renders the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="sc-kkGfuU bMCuZe"
+      >
+        <form
+          class="sc-eNQAEJ enoBFt"
+        >
+          <div
+            class="sc-hMqMXs dSDiJQ"
+          >
+            <div
+              class="sc-bwzfXH dYXCLw"
+            >
+              <div
+                class="sc-htpNat ctuoOm"
+              >
+                <div
+                  class="sc-bxivhb bdDGjt"
+                >
+                  <span
+                    class="sc-gzVnrw fHvJOv"
+                  >
+                    Date
+                  </span>
+                  <span
+                    class="sc-gzVnrw fHvJOv"
+                  >
+                    2019-05-02
+                  </span>
+                  <span
+                    class="sc-gzVnrw fHvJOv"
+                  >
+                    ^
+                  </span>
+                </div>
+                <div
+                  class="sc-bxivhb hzqAMy"
+                >
+                  <label
+                    class="sc-ifAKCX hSWqAs"
+                  >
+                     
+                    <span
+                      class="sc-EHOje fxqXVY"
+                    >
+                      Enter 
+                    </span>
+                      
+                    Date
+                  </label>
+                  <div
+                    class="react-datepicker-wrapper"
+                  >
+                    <div
+                      class="react-datepicker__input-container"
+                    >
+                      <input
+                        class=""
+                        name="date"
+                        type="text"
+                        value="2019-05-02"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-hMqMXs dSDiJQ"
+          >
+            <div
+              class="sc-htpNat ctuoOm"
+            >
+              <div
+                class="sc-bxivhb bdDGjt"
+              >
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  Subject
+                </span>
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                />
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  ^
+                </span>
+              </div>
+              <div
+                class="sc-bxivhb hzqAMy"
+              >
+                <label
+                  class="sc-ifAKCX hSWqAs"
+                >
+                   
+                  <span
+                    class="sc-EHOje fxqXVY"
+                  >
+                    Enter 
+                  </span>
+                    
+                  Subject
+                </label>
+                <input
+                  class="sc-bZQynM iUyYXt"
+                  name="subject"
+                  value=""
+                />
+              </div>
+            </div>
+          </div>
+          <div
+            class="sc-hMqMXs dSDiJQ"
+          >
+            <div
+              class="sc-jzJRlG iyDAyt"
+            >
+              <label
+                class="sc-cSHVUG rrLZq"
+              >
+                Retrieve amount from your bank account
+              </label>
+              <label
+                class="sc-kAzzGY gpDVKR"
+              >
+                <input
+                  class="sc-chPdSV gEoWmc"
+                  type="checkbox"
+                  value="false"
+                />
+                <span
+                  class="sc-kgoBCf bAsMgC"
+                />
+              </label>
+            </div>
+          </div>
+          <div
+            class="sc-hMqMXs dSDiJQ"
+          >
+            <div
+              class="sc-htpNat ctuoOm"
+            >
+              <div
+                class="sc-bxivhb bdDGjt"
+              >
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  Amount
+                </span>
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                />
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  ^
+                </span>
+              </div>
+              <div
+                class="sc-bxivhb hzqAMy"
+              >
+                <label
+                  class="sc-ifAKCX hSWqAs"
+                >
+                   
+                  <span
+                    class="sc-EHOje fxqXVY"
+                  >
+                    Enter 
+                  </span>
+                    
+                  Amount
+                </label>
+                <input
+                  class="sc-bZQynM iUyYXt"
+                  name="amount"
+                  type="number"
+                  value="0"
+                />
+              </div>
+            </div>
+          </div>
+          <button
+            class="sc-bdVaJa sc-iAyFgw diflcG"
+            color="primary"
+            type="submit"
+          >
+            Done
+          </button>
+        </form>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="sc-kkGfuU bMCuZe"
+    >
+      <form
+        class="sc-eNQAEJ enoBFt"
+      >
+        <div
+          class="sc-hMqMXs dSDiJQ"
+        >
+          <div
+            class="sc-bwzfXH dYXCLw"
+          >
+            <div
+              class="sc-htpNat ctuoOm"
+            >
+              <div
+                class="sc-bxivhb bdDGjt"
+              >
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  Date
+                </span>
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  2019-05-02
+                </span>
+                <span
+                  class="sc-gzVnrw fHvJOv"
+                >
+                  ^
+                </span>
+              </div>
+              <div
+                class="sc-bxivhb hzqAMy"
+              >
+                <label
+                  class="sc-ifAKCX hSWqAs"
+                >
+                   
+                  <span
+                    class="sc-EHOje fxqXVY"
+                  >
+                    Enter 
+                  </span>
+                    
+                  Date
+                </label>
+                <div
+                  class="react-datepicker-wrapper"
+                >
+                  <div
+                    class="react-datepicker__input-container"
+                  >
+                    <input
+                      class=""
+                      name="date"
+                      type="text"
+                      value="2019-05-02"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-hMqMXs dSDiJQ"
+        >
+          <div
+            class="sc-htpNat ctuoOm"
+          >
+            <div
+              class="sc-bxivhb bdDGjt"
+            >
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                Subject
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              />
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                ^
+              </span>
+            </div>
+            <div
+              class="sc-bxivhb hzqAMy"
+            >
+              <label
+                class="sc-ifAKCX hSWqAs"
+              >
+                 
+                <span
+                  class="sc-EHOje fxqXVY"
+                >
+                  Enter 
+                </span>
+                  
+                Subject
+              </label>
+              <input
+                class="sc-bZQynM iUyYXt"
+                name="subject"
+                value=""
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          class="sc-hMqMXs dSDiJQ"
+        >
+          <div
+            class="sc-jzJRlG iyDAyt"
+          >
+            <label
+              class="sc-cSHVUG rrLZq"
+            >
+              Retrieve amount from your bank account
+            </label>
+            <label
+              class="sc-kAzzGY gpDVKR"
+            >
+              <input
+                class="sc-chPdSV gEoWmc"
+                type="checkbox"
+                value="false"
+              />
+              <span
+                class="sc-kgoBCf bAsMgC"
+              />
+            </label>
+          </div>
+        </div>
+        <div
+          class="sc-hMqMXs dSDiJQ"
+        >
+          <div
+            class="sc-htpNat ctuoOm"
+          >
+            <div
+              class="sc-bxivhb bdDGjt"
+            >
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                Amount
+              </span>
+              <span
+                class="sc-gzVnrw fHvJOv"
+              />
+              <span
+                class="sc-gzVnrw fHvJOv"
+              >
+                ^
+              </span>
+            </div>
+            <div
+              class="sc-bxivhb hzqAMy"
+            >
+              <label
+                class="sc-ifAKCX hSWqAs"
+              >
+                 
+                <span
+                  class="sc-EHOje fxqXVY"
+                >
+                  Enter 
+                </span>
+                  
+                Amount
+              </label>
+              <input
+                class="sc-bZQynM iUyYXt"
+                name="amount"
+                type="number"
+                value="0"
+              />
+            </div>
+          </div>
+        </div>
+        <button
+          class="sc-bdVaJa sc-iAyFgw diflcG"
+          color="primary"
+          type="submit"
+        >
+          Done
+        </button>
+      </form>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;
