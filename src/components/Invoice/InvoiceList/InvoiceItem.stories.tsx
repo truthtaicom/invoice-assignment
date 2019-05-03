@@ -3,7 +3,6 @@ import React from 'react';
 import { action } from '@storybook/addon-actions';
 import InvoiceList from "./InvoiceList"
 import { simpleInvoiceListData } from './InvoiceList.utils'
-import { omitDateFieldSelector } from './InvoiceList.selector';
 
 storiesOf("Component", module)
   .add("Invoice List", () => (
