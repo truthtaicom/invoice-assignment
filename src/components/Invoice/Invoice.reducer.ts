@@ -4,7 +4,7 @@ import {
   GET_INVOICES_REQUEST, GET_INVOICES_SUCCESS, GET_INVOICES_FAILURE, ADD_INVOICE, SET_MODE,
   EDIT_INVOICE, DELETE_INVOICE, RESET_STATE, SET_TAB_ACTIVE, SET_RETRIEVE_FROM_BANK_ACC,
 }  from './Invoice.actionTypes'
-import { IInvoiceItem } from './InvoiceList/InvoiceItem'
+import { IInvoiceItem } from './InvoiceItem/InvoiceItem'
 
 export interface IInvoiceState {
   request: boolean,

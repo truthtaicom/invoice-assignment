@@ -13,7 +13,7 @@ import {
 }  from './Invoice.actionTypes'
 import { getInvoices as getInvoicesService } from '../../services/getInvoices'
 import { searchIBAN as searchIBANService } from '../../services/searchIBAN';
-import { IInvoiceItem } from './InvoiceList/InvoiceItem';
+import { IInvoiceItem } from './InvoiceItem/InvoiceItem';
 
 
 

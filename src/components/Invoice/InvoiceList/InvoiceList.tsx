@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
-import InvoiceItem from './InvoiceItem'
 import { SimpleList, Text, Button, Modal, Tabs, TabItem, Loading } from '../../../ui-kit'
 import InvoiceInformation from '../InvoiceInformation/InvoiceInformation'
 import InvoicePayment from '../InvoicePayment/InvoicePayment'
-import { IInvoiceItem } from './InvoiceItem'
+import InvoiceItem, { IInvoiceItem } from '../InvoiceItem/InvoiceItem'
 
 const StyledInvoiceList = styled.div`
   display: grid;

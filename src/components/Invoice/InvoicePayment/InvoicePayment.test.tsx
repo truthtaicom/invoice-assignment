@@ -4,7 +4,7 @@ import InvoicePayment from './InvoicePayment'
 
 describe('<InvoicePayment /> spec', () => {
   it('renders the component', () => {
-    const component = render(<InvoicePayment />)
+    const component = render(<InvoicePayment data={[{ amount: 1 }]}/>)
     expect(component).toMatchSnapshot()
   })
 });

@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components';
-import InvoiceItem, { IInvoiceItem } from '../InvoiceList/InvoiceItem'
+import InvoiceItem, { IInvoiceItem } from '../InvoiceItem/InvoiceItem'
 import { IBANInput, SimpleList, Form, FormItem, Button, Text } from '../../../ui-kit'
 
 export interface IInvoicePayment{
@@ -56,7 +56,7 @@ const InvoicePayment: React.FC<IInvoicePayment> = React.memo((props) => {
             <>
               <StyledFoundInvoiceText>Found {props.data.length} payment(s) from bank transfer</StyledFoundInvoiceText>
               <SimpleList data={props.data} renderItem={
-                (itemProps) => <InvoiceItem actived={itemProps.id === (props.selected && props.selected.id)} {...itemProps} onClick={() => onSelectItem(itemProps)} />} 
+                (itemProps) => <InvoiceItem key={itemProps.id} actived={itemProps.id === (props.selected && props.selected.id)} {...itemProps} onClick={() => onSelectItem(itemProps)} />} 
               />
             </>
           )
