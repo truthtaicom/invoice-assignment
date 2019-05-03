@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/invoice-assignment/static/css/main.0ffda37b.chunk.css",
+    "main.css": "/invoice-assignment/static/css/main.1c37990d.chunk.css",
     "main.js": "/invoice-assignment/static/js/main.48945704.chunk.js",
     "main.js.map": "/invoice-assignment/static/js/main.48945704.chunk.js.map",
     "runtime~main.js": "/invoice-assignment/static/js/runtime~main.1658df84.js",
@@ -9,9 +9,9 @@
     "static/js/2.fc8777eb.chunk.js": "/invoice-assignment/static/js/2.fc8777eb.chunk.js",
     "static/js/2.fc8777eb.chunk.js.map": "/invoice-assignment/static/js/2.fc8777eb.chunk.js.map",
     "index.html": "/invoice-assignment/index.html",
-    "precache-manifest.d655bd7accc78901bae3e89318a245a7.js": "/invoice-assignment/precache-manifest.d655bd7accc78901bae3e89318a245a7.js",
+    "precache-manifest.c9dc6725d96d2679cbdd5eb7b26d7180.js": "/invoice-assignment/precache-manifest.c9dc6725d96d2679cbdd5eb7b26d7180.js",
     "service-worker.js": "/invoice-assignment/service-worker.js",
     "static/css/2.c7bb94bc.chunk.css.map": "/invoice-assignment/static/css/2.c7bb94bc.chunk.css.map",
-    "static/css/main.0ffda37b.chunk.css.map": "/invoice-assignment/static/css/main.0ffda37b.chunk.css.map"
+    "static/css/main.1c37990d.chunk.css.map": "/invoice-assignment/static/css/main.1c37990d.chunk.css.map"
   }
 }
