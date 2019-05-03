@@ -6,13 +6,13 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-kEYyzF gVtqmL"
+        class="sc-kEYyzF iXddoB"
       >
         <div
-          class="sc-bwzfXH jqqcYM"
+          class="sc-bwzfXH qcGcc"
         >
           <div
-            class="sc-htpNat ikowyo"
+            class="sc-htpNat lgYVcu"
           >
             <span
               class="sc-bZQynM lohENU"
@@ -30,7 +30,7 @@ Object {
             </span>
           </div>
           <div
-            class="sc-htpNat bsetiw"
+            class="sc-htpNat hqbfFw"
           >
             <div
               class="react-datepicker-wrapper"
@@ -52,13 +52,13 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-kEYyzF gVtqmL"
+      class="sc-kEYyzF iXddoB"
     >
       <div
-        class="sc-bwzfXH jqqcYM"
+        class="sc-bwzfXH qcGcc"
       >
         <div
-          class="sc-htpNat ikowyo"
+          class="sc-htpNat lgYVcu"
         >
           <span
             class="sc-bZQynM lohENU"
@@ -76,7 +76,7 @@ Object {
           </span>
         </div>
         <div
-          class="sc-htpNat bsetiw"
+          class="sc-htpNat hqbfFw"
         >
           <div
             class="react-datepicker-wrapper"
