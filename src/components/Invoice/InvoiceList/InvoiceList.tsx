@@ -36,6 +36,16 @@ const StyledModalConfirm = styled.div`
   align-items: center;
   height: 100%;
 `
+const StyledModal = styled(Modal)`
+  @media only screen and (max-width: 680px) {
+    width: 100%;
+    border: none;
+    margin: 0;
+    position: absolute;
+    bottom: 0;
+    height: auto;
+  }
+`
 
 export interface IInvoiceList {
   data: IInvoiceItem[]
@@ -176,12 +186,12 @@ const InvoiceList: React.FC<IInvoiceList> = (props) => {
             }
         </Tabs>
       </Modal>
-      <Modal title="Do you want to delete this item ?" isOpen={isOpenModalDelete} onClose={resetState}>
+      <StyledModal title="Do you want to delete this item ?" isOpen={isOpenModalDelete} onClose={resetState}>
         <StyledModalConfirm>
           <Button color="primary" onClick={onSubmit}>Yes</Button>
           <Button color="danger" onClick={resetState}>No</Button>
         </StyledModalConfirm>
-      </Modal>
+      </StyledModal>
     </>
   )
 }
