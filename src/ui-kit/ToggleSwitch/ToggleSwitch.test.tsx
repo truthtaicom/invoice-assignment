@@ -4,7 +4,7 @@ import ToggleSwitch from './ToggleSwitch'
 
 describe('<ToggleSwitch /> spec', () => {
   it('renders the component', () => {
-    const component = render(<ToggleSwitch label="switch" value={true} onChange={jest.fn} />)
+    const component = render(<ToggleSwitch label="switch" onChange={jest.fn} />)
     expect(component).toMatchSnapshot()
   })
 });

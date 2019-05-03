@@ -5,7 +5,7 @@ import Form from './Form'
 describe('<Form /> spec', () => {
   it('renders the component', () => {
     const component = render(
-      <Form>
+      <Form onSubmit={jest.fn}>
         <p>OK</p>
       </Form>
     )
