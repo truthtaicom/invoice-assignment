@@ -6,61 +6,63 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-hSdWYo jWMTFw"
+        class="sc-brqgnP bGWdk"
       >
         <form
-          class="sc-eNQAEJ enoBFt"
+          class="sc-cMljjf jWaZMD sc-eNQAEJ fYukrM"
         >
           <div
-            class="sc-htpNat ctuoOm"
+            class="sc-hMqMXs dSDiJQ"
           >
             <div
-              class="sc-bxivhb bdDGjt"
+              class="sc-htpNat ctuoOm"
             >
-              <span
-                class="sc-gzVnrw fHvJOv"
+              <div
+                class="sc-bxivhb cWjgJW"
               >
-                Search IBAN
-              </span>
-              <span
-                class="sc-gzVnrw fHvJOv"
-              />
-              <span
-                class="sc-gzVnrw fHvJOv"
-              >
-                ^
-              </span>
-            </div>
-            <div
-              class="sc-bxivhb hzqAMy"
-            >
-              <label
-                class="sc-ifAKCX hSWqAs"
-              >
-                 
                 <span
-                  class="sc-EHOje fxqXVY"
+                  class="sc-gzVnrw gtppSg"
                 >
-                  Enter 
+                  Search IBAN
                 </span>
-                  
-                Search IBAN
-              </label>
-              <input
-                class="sc-bZQynM iUyYXt"
-                name="ibanNum"
-                placeholder="DE-12-1234-1234-12345-12"
-              />
+                <span
+                  class="sc-gzVnrw gtppSg"
+                >
+                   
+                </span>
+                <span
+                  class="sc-gzVnrw gtppSg"
+                >
+                  +
+                </span>
+              </div>
+              <div
+                class="sc-bxivhb hWYmZL"
+              >
+                <label
+                  class="sc-ifAKCX hSWqAs"
+                >
+                   
+                  <span
+                    class="sc-EHOje cZmnwG"
+                  >
+                    Enter 
+                  </span>
+                    
+                  Search IBAN
+                </label>
+                <input
+                  class="sc-bZQynM htDgzj"
+                  name="ibanNum"
+                  placeholder="DE-12-1234-1234-12345-12"
+                />
+              </div>
             </div>
           </div>
-          <span
-            class="sc-gzVnrw fHvJOv"
-          >
-            Found bank transfer
-          </span>
           <button
-            class="sc-bdVaJa eMWQLK"
+            class="sc-bdVaJa sc-jDwBTQ iKfuNx"
             color="primary"
+            disabled=""
             type="submit"
           >
             Done
@@ -71,61 +73,63 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-hSdWYo jWMTFw"
+      class="sc-brqgnP bGWdk"
     >
       <form
-        class="sc-eNQAEJ enoBFt"
+        class="sc-cMljjf jWaZMD sc-eNQAEJ fYukrM"
       >
         <div
-          class="sc-htpNat ctuoOm"
+          class="sc-hMqMXs dSDiJQ"
         >
           <div
-            class="sc-bxivhb bdDGjt"
+            class="sc-htpNat ctuoOm"
           >
-            <span
-              class="sc-gzVnrw fHvJOv"
+            <div
+              class="sc-bxivhb cWjgJW"
             >
-              Search IBAN
-            </span>
-            <span
-              class="sc-gzVnrw fHvJOv"
-            />
-            <span
-              class="sc-gzVnrw fHvJOv"
-            >
-              ^
-            </span>
-          </div>
-          <div
-            class="sc-bxivhb hzqAMy"
-          >
-            <label
-              class="sc-ifAKCX hSWqAs"
-            >
-               
               <span
-                class="sc-EHOje fxqXVY"
+                class="sc-gzVnrw gtppSg"
               >
-                Enter 
+                Search IBAN
               </span>
-                
-              Search IBAN
-            </label>
-            <input
-              class="sc-bZQynM iUyYXt"
-              name="ibanNum"
-              placeholder="DE-12-1234-1234-12345-12"
-            />
+              <span
+                class="sc-gzVnrw gtppSg"
+              >
+                 
+              </span>
+              <span
+                class="sc-gzVnrw gtppSg"
+              >
+                +
+              </span>
+            </div>
+            <div
+              class="sc-bxivhb hWYmZL"
+            >
+              <label
+                class="sc-ifAKCX hSWqAs"
+              >
+                 
+                <span
+                  class="sc-EHOje cZmnwG"
+                >
+                  Enter 
+                </span>
+                  
+                Search IBAN
+              </label>
+              <input
+                class="sc-bZQynM htDgzj"
+                name="ibanNum"
+                placeholder="DE-12-1234-1234-12345-12"
+              />
+            </div>
           </div>
         </div>
-        <span
-          class="sc-gzVnrw fHvJOv"
-        >
-          Found bank transfer
-        </span>
         <button
-          class="sc-bdVaJa eMWQLK"
+          class="sc-bdVaJa sc-jDwBTQ iKfuNx"
           color="primary"
+          disabled=""
           type="submit"
         >
           Done

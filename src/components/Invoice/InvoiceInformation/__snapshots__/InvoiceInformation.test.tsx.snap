@@ -6,10 +6,10 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-kkGfuU bMCuZe"
+        class="sc-kkGfuU ixzkKG"
       >
         <form
-          class="sc-eNQAEJ enoBFt"
+          class="sc-eNQAEJ fYukrM"
         >
           <div
             class="sc-hMqMXs dSDiJQ"
@@ -21,33 +21,34 @@ Object {
                 class="sc-htpNat ctuoOm"
               >
                 <div
-                  class="sc-bxivhb bdDGjt"
+                  class="sc-bxivhb cWjgJW"
                 >
                   <span
-                    class="sc-gzVnrw fHvJOv"
+                    class="sc-gzVnrw gtppSg"
                   >
                     Date
                   </span>
                   <span
-                    class="sc-gzVnrw fHvJOv"
+                    class="sc-gzVnrw gtppSg"
                   >
-                    2019-05-02
+                    2019-05-03
+                     
                   </span>
                   <span
-                    class="sc-gzVnrw fHvJOv"
+                    class="sc-gzVnrw gtppSg"
                   >
-                    ^
+                    +
                   </span>
                 </div>
                 <div
-                  class="sc-bxivhb hzqAMy"
+                  class="sc-bxivhb hWYmZL"
                 >
                   <label
                     class="sc-ifAKCX hSWqAs"
                   >
                      
                     <span
-                      class="sc-EHOje fxqXVY"
+                      class="sc-EHOje cZmnwG"
                     >
                       Enter 
                     </span>
@@ -64,7 +65,7 @@ Object {
                         class=""
                         name="date"
                         type="text"
-                        value="2019-05-02"
+                        value="2019-05-03"
                       />
                     </div>
                   </div>
@@ -79,31 +80,34 @@ Object {
               class="sc-htpNat ctuoOm"
             >
               <div
-                class="sc-bxivhb bdDGjt"
+                class="sc-bxivhb cWjgJW"
               >
                 <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
                   Subject
                 </span>
                 <span
-                  class="sc-gzVnrw fHvJOv"
-                />
-                <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
-                  ^
+                  
+                   
+                </span>
+                <span
+                  class="sc-gzVnrw gtppSg"
+                >
+                  +
                 </span>
               </div>
               <div
-                class="sc-bxivhb hzqAMy"
+                class="sc-bxivhb hWYmZL"
               >
                 <label
                   class="sc-ifAKCX hSWqAs"
                 >
                    
                   <span
-                    class="sc-EHOje fxqXVY"
+                    class="sc-EHOje cZmnwG"
                   >
                     Enter 
                   </span>
@@ -111,7 +115,7 @@ Object {
                   Subject
                 </label>
                 <input
-                  class="sc-bZQynM iUyYXt"
+                  class="sc-bZQynM htDgzj"
                   name="subject"
                   value=""
                 />
@@ -135,7 +139,6 @@ Object {
                 <input
                   class="sc-chPdSV gEoWmc"
                   type="checkbox"
-                  value="false"
                 />
                 <span
                   class="sc-kgoBCf bAsMgC"
@@ -150,31 +153,34 @@ Object {
               class="sc-htpNat ctuoOm"
             >
               <div
-                class="sc-bxivhb bdDGjt"
+                class="sc-bxivhb cWjgJW"
               >
                 <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
                   Amount
                 </span>
                 <span
-                  class="sc-gzVnrw fHvJOv"
-                />
-                <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
-                  ^
+                   
+                  EUR
+                </span>
+                <span
+                  class="sc-gzVnrw gtppSg"
+                >
+                  +
                 </span>
               </div>
               <div
-                class="sc-bxivhb hzqAMy"
+                class="sc-bxivhb hWYmZL"
               >
                 <label
                   class="sc-ifAKCX hSWqAs"
                 >
                    
                   <span
-                    class="sc-EHOje fxqXVY"
+                    class="sc-EHOje cZmnwG"
                   >
                     Enter 
                   </span>
@@ -182,7 +188,7 @@ Object {
                   Amount
                 </label>
                 <input
-                  class="sc-bZQynM iUyYXt"
+                  class="sc-bZQynM htDgzj"
                   name="amount"
                   type="number"
                   value="0"
@@ -191,8 +197,9 @@ Object {
             </div>
           </div>
           <button
-            class="sc-bdVaJa sc-iAyFgw diflcG"
+            class="sc-bdVaJa sc-iAyFgw eXbsgF"
             color="primary"
+            disabled=""
             type="submit"
           >
             Done
@@ -203,10 +210,10 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-kkGfuU bMCuZe"
+      class="sc-kkGfuU ixzkKG"
     >
       <form
-        class="sc-eNQAEJ enoBFt"
+        class="sc-eNQAEJ fYukrM"
       >
         <div
           class="sc-hMqMXs dSDiJQ"
@@ -218,33 +225,34 @@ Object {
               class="sc-htpNat ctuoOm"
             >
               <div
-                class="sc-bxivhb bdDGjt"
+                class="sc-bxivhb cWjgJW"
               >
                 <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
                   Date
                 </span>
                 <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
-                  2019-05-02
+                  2019-05-03
+                   
                 </span>
                 <span
-                  class="sc-gzVnrw fHvJOv"
+                  class="sc-gzVnrw gtppSg"
                 >
-                  ^
+                  +
                 </span>
               </div>
               <div
-                class="sc-bxivhb hzqAMy"
+                class="sc-bxivhb hWYmZL"
               >
                 <label
                   class="sc-ifAKCX hSWqAs"
                 >
                    
                   <span
-                    class="sc-EHOje fxqXVY"
+                    class="sc-EHOje cZmnwG"
                   >
                     Enter 
                   </span>
@@ -261,7 +269,7 @@ Object {
                       class=""
                       name="date"
                       type="text"
-                      value="2019-05-02"
+                      value="2019-05-03"
                     />
                   </div>
                 </div>
@@ -276,31 +284,34 @@ Object {
             class="sc-htpNat ctuoOm"
           >
             <div
-              class="sc-bxivhb bdDGjt"
+              class="sc-bxivhb cWjgJW"
             >
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw gtppSg"
               >
                 Subject
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
-              />
-              <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw gtppSg"
               >
-                ^
+                
+                 
+              </span>
+              <span
+                class="sc-gzVnrw gtppSg"
+              >
+                +
               </span>
             </div>
             <div
-              class="sc-bxivhb hzqAMy"
+              class="sc-bxivhb hWYmZL"
             >
               <label
                 class="sc-ifAKCX hSWqAs"
               >
                  
                 <span
-                  class="sc-EHOje fxqXVY"
+                  class="sc-EHOje cZmnwG"
                 >
                   Enter 
                 </span>
@@ -308,7 +319,7 @@ Object {
                 Subject
               </label>
               <input
-                class="sc-bZQynM iUyYXt"
+                class="sc-bZQynM htDgzj"
                 name="subject"
                 value=""
               />
@@ -332,7 +343,6 @@ Object {
               <input
                 class="sc-chPdSV gEoWmc"
                 type="checkbox"
-                value="false"
               />
               <span
                 class="sc-kgoBCf bAsMgC"
@@ -347,31 +357,34 @@ Object {
             class="sc-htpNat ctuoOm"
           >
             <div
-              class="sc-bxivhb bdDGjt"
+              class="sc-bxivhb cWjgJW"
             >
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw gtppSg"
               >
                 Amount
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
-              />
-              <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw gtppSg"
               >
-                ^
+                 
+                EUR
+              </span>
+              <span
+                class="sc-gzVnrw gtppSg"
+              >
+                +
               </span>
             </div>
             <div
-              class="sc-bxivhb hzqAMy"
+              class="sc-bxivhb hWYmZL"
             >
               <label
                 class="sc-ifAKCX hSWqAs"
               >
                  
                 <span
-                  class="sc-EHOje fxqXVY"
+                  class="sc-EHOje cZmnwG"
                 >
                   Enter 
                 </span>
@@ -379,7 +392,7 @@ Object {
                 Amount
               </label>
               <input
-                class="sc-bZQynM iUyYXt"
+                class="sc-bZQynM htDgzj"
                 name="amount"
                 type="number"
                 value="0"
@@ -388,8 +401,9 @@ Object {
           </div>
         </div>
         <button
-          class="sc-bdVaJa sc-iAyFgw diflcG"
+          class="sc-bdVaJa sc-iAyFgw eXbsgF"
           color="primary"
+          disabled=""
           type="submit"
         >
           Done

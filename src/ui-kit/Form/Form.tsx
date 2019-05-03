@@ -12,7 +12,7 @@ const StyledForm = styled.form`
   }
 `
 
-function Form({ children, onSubmit }) {
+function Form({ children, onSubmit, ...props }) {
   const onFromSubmit = (e) => {
     e.preventDefault()
     const values: any = Array.from(e.target.elements)
@@ -24,7 +24,7 @@ function Form({ children, onSubmit }) {
   }
 
   return (
-    <StyledForm onSubmit={onFromSubmit} >
+    <StyledForm onSubmit={onFromSubmit} {...props}>
       {
         children
       }

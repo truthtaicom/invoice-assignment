@@ -51,7 +51,7 @@ export interface IInvoiceList {
   setRetrieveFromBankAcc: (v: boolean) =>  void,
   selectPaymentItem: (v: IInvoiceItem) => void,
   isRetrieveFromBankAcc?: boolean,
-  paymentsFromBankAccount?: IInvoiceItem[],
+  paymentsFromBankAccount: IInvoiceItem[],
   loading?: boolean,
   selectedItem: IInvoiceItem,
   modeInvoiceModal?: string,
@@ -127,10 +127,10 @@ const InvoiceList: React.FC<IInvoiceList> = (props) => {
     setTabActive("pm")
   }
 
-  const renderItem = (itemProps: IInvoiceItem) => (
+  const renderItem = (itemProps: IInvoiceItem, idx: number) => (
     <InvoiceItem
       {...itemProps}
-      key={itemProps.id}
+      key={idx}
       onDelete={onDelete}
       onEdit={onEdit}
     />)

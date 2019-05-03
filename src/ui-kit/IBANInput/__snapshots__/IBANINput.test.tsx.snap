@@ -9,27 +9,28 @@ Object {
         class="sc-htpNat ctuoOm"
       >
         <div
-          class="sc-bxivhb bdDGjt"
+          class="sc-bxivhb cWjgJW"
         >
           <span
-            class="sc-gzVnrw fHvJOv"
+            class="sc-gzVnrw gtppSg"
           />
           <span
-            class="sc-gzVnrw fHvJOv"
+            class="sc-gzVnrw gtppSg"
           >
             DE-12-1234-1234-12345-12
+             
           </span>
           <span
-            class="sc-gzVnrw fHvJOv"
+            class="sc-gzVnrw gtppSg"
           >
-            ^
+            +
           </span>
         </div>
         <div
-          class="sc-bxivhb hzqAMy"
+          class="sc-bxivhb hWYmZL"
         >
           <input
-            class="sc-bZQynM iUyYXt"
+            class="sc-bZQynM htDgzj"
             placeholder="DE-12-1234-1234-12345-12"
             value="DE-12-1234-1234-12345-12"
           />
@@ -42,27 +43,28 @@ Object {
       class="sc-htpNat ctuoOm"
     >
       <div
-        class="sc-bxivhb bdDGjt"
+        class="sc-bxivhb cWjgJW"
       >
         <span
-          class="sc-gzVnrw fHvJOv"
+          class="sc-gzVnrw gtppSg"
         />
         <span
-          class="sc-gzVnrw fHvJOv"
+          class="sc-gzVnrw gtppSg"
         >
           DE-12-1234-1234-12345-12
+           
         </span>
         <span
-          class="sc-gzVnrw fHvJOv"
+          class="sc-gzVnrw gtppSg"
         >
-          ^
+          +
         </span>
       </div>
       <div
-        class="sc-bxivhb hzqAMy"
+        class="sc-bxivhb hWYmZL"
       >
         <input
-          class="sc-bZQynM iUyYXt"
+          class="sc-bZQynM htDgzj"
           placeholder="DE-12-1234-1234-12345-12"
           value="DE-12-1234-1234-12345-12"
         />

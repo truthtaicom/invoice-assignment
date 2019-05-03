@@ -4,7 +4,7 @@ import Input from './Input'
 
 describe('<Input /> spec', () => {
   it('renders the component', () => {
-    const component = render(<Input defaultValue="hello" />)
+    const component = render(<Input onChange={jest.fn} defaultValue="hello" />)
     expect(component).toMatchSnapshot()
   })
 });

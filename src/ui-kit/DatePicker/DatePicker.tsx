@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
 import ReactDatePicker, { ReactDatePickerProps } from "react-datepicker";
+import * as Colors from '../Variables/Colors'
 import { Input } from '../'
 import "react-datepicker/dist/react-datepicker.css";
 
@@ -16,7 +17,7 @@ const DatePickerWrapper = styled.div`
     font-size: 1rem;
     line-height: 1.5;
     color: #495057;
-    background-color: #fff;
+    background-color: ${Colors.white};
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;

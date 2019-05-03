@@ -9,27 +9,28 @@ Object {
         class="sc-ckVGcZ ReGNl"
       >
         <div
-          class="sc-jKJlTe hmlEfZ"
+          class="sc-jKJlTe dSSqoX"
         >
           <span
-            class="sc-htpNat ersLwv"
+            class="sc-htpNat imJcZI"
           />
           <span
-            class="sc-htpNat ersLwv"
+            class="sc-htpNat imJcZI"
           >
             hello
+             
           </span>
           <span
-            class="sc-htpNat ersLwv"
+            class="sc-htpNat imJcZI"
           >
-            ^
+            +
           </span>
         </div>
         <div
-          class="sc-jKJlTe gsFbmY"
+          class="sc-jKJlTe hIWnYN"
         >
           <input
-            class="sc-kEYyzF fxxtG"
+            class="sc-kEYyzF fCKcVF"
             value="hello"
           />
         </div>
@@ -41,27 +42,28 @@ Object {
       class="sc-ckVGcZ ReGNl"
     >
       <div
-        class="sc-jKJlTe hmlEfZ"
+        class="sc-jKJlTe dSSqoX"
       >
         <span
-          class="sc-htpNat ersLwv"
+          class="sc-htpNat imJcZI"
         />
         <span
-          class="sc-htpNat ersLwv"
+          class="sc-htpNat imJcZI"
         >
           hello
+           
         </span>
         <span
-          class="sc-htpNat ersLwv"
+          class="sc-htpNat imJcZI"
         >
-          ^
+          +
         </span>
       </div>
       <div
-        class="sc-jKJlTe gsFbmY"
+        class="sc-jKJlTe hIWnYN"
       >
         <input
-          class="sc-kEYyzF fxxtG"
+          class="sc-kEYyzF fCKcVF"
           value="hello"
         />
       </div>

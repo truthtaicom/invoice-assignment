@@ -13,7 +13,7 @@ const StyledTabs = styled.div`
   display: grid;
   grid-template-columns: minmax(max-content, 5rem) auto;
   grid-row-gap: 1px;
-  background: #dddddd54;
+  background: ${Colors.grey3};
 
   @media only screen and (max-width: 680px) {
     height: 100%;
@@ -32,7 +32,7 @@ const StyledTitle = styled.div`
   display: grid;
   grid-template-rows: repeat(2, 3rem);
   height: 100%;
-  background: #f3f3f3;
+  background: ${Colors.grey2};
 
   @media only screen and (max-width: 680px) {
     display: none;
@@ -49,7 +49,7 @@ const StyledTitleItem = styled(Text)<IStyledTitleItem>`
   justify-content: center;
   align-items: center;
   display: grid;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid ${Colors.grey};
   padding: 0 1rem;
 `
 

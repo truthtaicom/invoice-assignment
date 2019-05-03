@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { IInput } from '../Input/Input'
 import styled from 'styled-components'
+import * as Colors from '../Variables/Colors';
 
 export interface IToggleSwitch{
   name?: string;
@@ -46,14 +47,14 @@ const StyledToggleSwitchContent = styled.span<IStyledToggleSwitchContent>`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  background-color: ${Colors.gray80};
   transition: .4s;
   border-radius: 34px;
 
   ${props => props.isOpen && 
     `
-    background-color: #2196F3;
-    box-shadow: 0 0 1px #2196F3;
+    background-color: ${Colors.blue2};
+    box-shadow: 0 0 1px ${Colors.blue2};
     `
   }
   
