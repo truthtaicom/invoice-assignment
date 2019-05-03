@@ -7,6 +7,8 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export interface IDatePicker {
   label?: string
+  selectedDate?: Date | null
+  onChange?: (e: any) => void
 }
 
 const DatePickerWrapper = styled.div`
@@ -16,17 +18,17 @@ const DatePickerWrapper = styled.div`
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
-    color: #495057;
+    color: ${Colors.grey5};
     background-color: ${Colors.white};
     background-clip: padding-box;
-    border: 1px solid #ced4da;
+    border: 1px solid ${Colors.grey4};
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
   }
 `
 
 
-const DatePicker: React.FC<ReactDatePickerProps & any> = (props) => {
+const DatePicker: React.FC<ReactDatePickerProps & IDatePicker> = ({ selectedDate, ...props}) => {
   return (
     <DatePickerWrapper>
       <Input {...props}>
