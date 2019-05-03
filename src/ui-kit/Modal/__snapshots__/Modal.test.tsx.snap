@@ -5,6 +5,22 @@ Object {
   "asFragment": [Function],
   "baseElement": <body>
     <div />
+    <div
+      class="sc-bdVaJa ilRDgE"
+    >
+      <div
+        class="sc-bwzfXH krsmLQ"
+      >
+        <div
+          class="sc-EHOje idIMJS"
+        >
+          test this modal
+        </div>
+      </div>
+      <div
+        class="sc-bZQynM dNxkoD"
+      />
+    </div>
   </body>,
   "container": <div />,
   "debug": [Function],
