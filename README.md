@@ -1,5 +1,14 @@
 ### Invoice Assignment
 
+## Technologies:
+
+✅ ReactJS
+✅ Redux
+✅ Typescript
+✅ Styled-Component
+✅ Storybook
+✅ Jest
+
 ## Live demo: 
 - Dashboard: [https://truthtaicom.github.io/invoice-assignment/](https://truthtaicom.github.io/invoice-assignment/)
 
