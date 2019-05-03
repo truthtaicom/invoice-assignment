@@ -33,6 +33,7 @@ describe('<InvoiceList /> spec', () => {
         resetState={jest.fn}
         setRetrieveFromBankAcc={jest.fn}
         selectPaymentItem={jest.fn}
+        paymentsFromBankAccount={[]}
       />
     )
     expect(component).toMatchSnapshot()
