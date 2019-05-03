@@ -1,4 +1,4 @@
-import { IInvoiceItem } from './InvoiceList/InvoiceItem'
+import { IInvoiceItem } from './InvoiceItem/InvoiceItem'
 
 export const GET_INVOICES_REQUEST = 'GET_INVOICES_REQUEST'
 export const GET_INVOICES_SUCCESS = 'GET_INVOICES_SUCCESS'

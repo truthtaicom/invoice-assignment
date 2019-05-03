@@ -59,6 +59,42 @@ Object {
               </div>
             </div>
           </div>
+          <span
+            class="sc-gzVnrw sc-jAaTju iUNObb"
+          >
+            Found 
+            1
+             payment(s) from bank transfer
+          </span>
+          <div
+            class="sc-htoDjs bxSFQy"
+          >
+            <div
+              class="sc-cvbbAY fPSSdY"
+            >
+              <span
+                class="sc-gzVnrw sc-kkGfuU byBZmt"
+              >
+                -
+              </span>
+              <span
+                class="sc-gzVnrw sc-iAyFgw khoAwh"
+              >
+                -
+              </span>
+              <span
+                class="sc-gzVnrw sc-hSdWYo jfmkVf"
+              >
+                1
+                 
+              </span>
+              <span
+                class="sc-gzVnrw sc-eHgmQL fbFMfy"
+              >
+                -
+              </span>
+            </div>
+          </div>
           <button
             class="sc-bdVaJa sc-jDwBTQ iKfuNx"
             color="primary"
@@ -124,6 +160,42 @@ Object {
                 placeholder="DE-12-1234-1234-12345-12"
               />
             </div>
+          </div>
+        </div>
+        <span
+          class="sc-gzVnrw sc-jAaTju iUNObb"
+        >
+          Found 
+          1
+           payment(s) from bank transfer
+        </span>
+        <div
+          class="sc-htoDjs bxSFQy"
+        >
+          <div
+            class="sc-cvbbAY fPSSdY"
+          >
+            <span
+              class="sc-gzVnrw sc-kkGfuU byBZmt"
+            >
+              -
+            </span>
+            <span
+              class="sc-gzVnrw sc-iAyFgw khoAwh"
+            >
+              -
+            </span>
+            <span
+              class="sc-gzVnrw sc-hSdWYo jfmkVf"
+            >
+              1
+               
+            </span>
+            <span
+              class="sc-gzVnrw sc-eHgmQL fbFMfy"
+            >
+              -
+            </span>
           </div>
         </div>
         <button
