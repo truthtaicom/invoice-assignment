@@ -114,7 +114,7 @@ const InvoiceItem: React.FC<IInvoiceItem> = React.memo(({ onEdit, onDelete, acti
     <StyledInvoiceItem hasControl={hasControl} actived={actived} onClick={onClick}>
       <StyledDateText>{item.date || '-' }</StyledDateText>
       <StyledSubjectText>{item.subject || '-' }</StyledSubjectText>
-      <StyledAmountText>{item.amount && item.amount.toLocaleString() || '-' } {item.unit}</StyledAmountText>
+      <StyledAmountText>{(item.amount && item.amount.toLocaleString()) || '-' } {item.unit}</StyledAmountText>
       <StyledIBANNumText>{item.ibanNum || '-' }</StyledIBANNumText>
       {
         (onEdit || onDelete) &&

@@ -79,11 +79,11 @@ const ToggleSwitch: React.FC<IToggleSwitch> = ({ onChange, isOpen, label, ...pro
 
   useEffect(() => {
     setValue(!!isOpen)
-  }, [])
+  }, [isOpen])
 
   useEffect(() => {
     onChange(value)
-  }, [value])
+  }, [onChange, value])
 
   const onChangeInput = () => {
     setValue(!value)

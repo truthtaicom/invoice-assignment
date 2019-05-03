@@ -83,8 +83,6 @@ const InvoiceList: React.FC<IInvoiceList> = (props) => {
     selectedPaymentItem,
     selectPaymentItem
   } = props;
-  const [actionMode, setActionMode] = useState("");
-  const [selectedPayment, setSelectedPayment] = useState(0);
   
   const [isOpenModal, setIsOpenModal] = useState(false);
   const isOpenModalAddAndEdit = isOpenModal && !isDeleteMode;

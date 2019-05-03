@@ -91,13 +91,13 @@ const Input: React.FC<IInput> = ({ label, children, ...props }) => {
 
   useEffect(() => {
     setValue(props.value || props.defaultValue)
-  }, [])
+  }, [props.value, props.defaultValue])
 
   useEffect(() => {
     if(props.isFormat && value) {
       setValue(value.toLocaleString())
     }
-  }, [value])
+  }, [value, props.isFormat])
 
   useEffect(() => {
     if(props.selectedDate) {

@@ -13,6 +13,7 @@ const StyledLoading = styled.div`
   animation-duration: 1s;
   animation-timing-function: linear;
   position: relative;
+  margin: 0 auto;
 
   @keyframes rotate-s-loader {
     from {
