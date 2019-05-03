@@ -13,9 +13,6 @@
 - Dashboard: [https://truthtaicom.github.io/invoice-assignment/](https://truthtaicom.github.io/invoice-assignment/)
 
 
-- Storybook: [https://truthtaicom.github.io/invoice-assignment/storybook-static](https://truthtaicom.github.io/invoice-assignment/storybook-static)
-
-
 ## Available Scripts
 
 In the project directory, you can run:
