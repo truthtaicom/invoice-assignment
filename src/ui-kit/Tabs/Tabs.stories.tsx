@@ -1,6 +1,5 @@
 import { storiesOf } from '@storybook/react';
 import React, { useState } from 'react';
-import { Button } from '../'
 import Tabs from './Tabs'
 import TabItem from './TabItem'
 
