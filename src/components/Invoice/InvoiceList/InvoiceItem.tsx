@@ -108,7 +108,7 @@ const StyledInvoiceItemControl = styled.div<IStyledInvoiceItemControl>`
 `
 
 
-const ListItem: React.FC<IInvoiceItem> = ({ onEdit, onDelete, actived, onClick, ...item}) => {
+const InvoiceItem: React.FC<IInvoiceItem> = React.memo(({ onEdit, onDelete, actived, onClick, ...item}) => {
   const hasControl  = !!onEdit || !!onDelete
   return (
     <StyledInvoiceItem hasControl={hasControl} actived={actived} onClick={onClick}>
@@ -125,6 +125,6 @@ const ListItem: React.FC<IInvoiceItem> = ({ onEdit, onDelete, actived, onClick, 
       }
     </StyledInvoiceItem>
   )
-}
+})
 
-export default ListItem;
+export default InvoiceItem;

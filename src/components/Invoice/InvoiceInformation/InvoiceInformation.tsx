@@ -21,7 +21,7 @@ const StyledLabel = styled.div`
 
 `
 
-const InvoiceInformation = ({ item = { amount: 0, subject: '' }, ...props }: any) => {
+const InvoiceInformation = React.memo(({ item = { amount: 0, subject: '' }, ...props }: any) => {
   const { date: itemDate } = item
   const [date, setDate] = useState(itemDate ? new Date(itemDate) : new Date())
   const [isRetrieve, setIsRetrive] = useState(false)
@@ -31,7 +31,7 @@ const InvoiceInformation = ({ item = { amount: 0, subject: '' }, ...props }: any
   useEffect(() => {
     setAmount(item.amount)
     setSubject(item.subject)
-  }, [item])
+  }, [item.amount, item.subject])
 
   const datePickerOnchange = (value) => { setDate(value) }
   
@@ -90,6 +90,6 @@ const InvoiceInformation = ({ item = { amount: 0, subject: '' }, ...props }: any
       </Form>
     </StyledInvoiceInformation>
   )
-}
+})
 
 export default InvoiceInformation

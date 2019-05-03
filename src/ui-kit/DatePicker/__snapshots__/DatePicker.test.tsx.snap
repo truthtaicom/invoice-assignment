@@ -12,24 +12,25 @@ Object {
           class="sc-bwzfXH jqqcYM"
         >
           <div
-            class="sc-htpNat caMxVp"
+            class="sc-htpNat ikowyo"
           >
             <span
-              class="sc-bZQynM hanFHq"
+              class="sc-bZQynM lohENU"
             />
             <span
-              class="sc-bZQynM hanFHq"
+              class="sc-bZQynM lohENU"
             >
-              2019-05-02
+              2019-05-03
+               
             </span>
             <span
-              class="sc-bZQynM hanFHq"
+              class="sc-bZQynM lohENU"
             >
-              ^
+              +
             </span>
           </div>
           <div
-            class="sc-htpNat eWpxpu"
+            class="sc-htpNat bsetiw"
           >
             <div
               class="react-datepicker-wrapper"
@@ -40,7 +41,7 @@ Object {
                 <input
                   class=""
                   type="text"
-                  value="05/02/2019"
+                  value="05/03/2019"
                 />
               </div>
             </div>
@@ -57,24 +58,25 @@ Object {
         class="sc-bwzfXH jqqcYM"
       >
         <div
-          class="sc-htpNat caMxVp"
+          class="sc-htpNat ikowyo"
         >
           <span
-            class="sc-bZQynM hanFHq"
+            class="sc-bZQynM lohENU"
           />
           <span
-            class="sc-bZQynM hanFHq"
+            class="sc-bZQynM lohENU"
           >
-            2019-05-02
+            2019-05-03
+             
           </span>
           <span
-            class="sc-bZQynM hanFHq"
+            class="sc-bZQynM lohENU"
           >
-            ^
+            +
           </span>
         </div>
         <div
-          class="sc-htpNat eWpxpu"
+          class="sc-htpNat bsetiw"
         >
           <div
             class="react-datepicker-wrapper"
@@ -85,7 +87,7 @@ Object {
               <input
                 class=""
                 type="text"
-                value="05/02/2019"
+                value="05/03/2019"
               />
             </div>
           </div>

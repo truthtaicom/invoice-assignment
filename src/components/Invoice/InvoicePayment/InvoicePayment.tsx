@@ -1,7 +1,15 @@
 import React, { useState } from 'react'
 import styled from 'styled-components';
-import InvoiceItem from '../InvoiceList/InvoiceItem'
-import { IBANInput, SimpleList, Form, Button, Text } from '../../../ui-kit'
+import InvoiceItem, { IInvoiceItem } from '../InvoiceList/InvoiceItem'
+import { IBANInput, SimpleList, Form, FormItem, Button, Text } from '../../../ui-kit'
+
+export interface IInvoicePayment{
+  onSelect?: (e: any) => void,
+  onSubmit?: (e: any) => void,
+  onChangeIBANNum?: (e: any) => void,
+  data: IInvoiceItem[],
+  selected?: IInvoiceItem
+}
 
 
 const StyledInvoiceInformation = styled.div`
@@ -11,20 +19,20 @@ const StyledInvoiceInformation = styled.div`
 
 const StyledInvoicePaymentForm = styled(Form)`
   display: grid;
-  grid-template-rows: 1fr 1fr 4fr 1fr;
   grid-row-gap: 1rem;
 `
 
+const StyledFoundInvoiceText = styled(Text)``
+
 const StyledBtnConfirm = styled(Button)`
-  margin: 1rem 0;
+  margin: 0;
 `
 
-const InvoicePayment = (props) => {
-  const [value, setValue] = useState()
+const InvoicePayment: React.FC<IInvoicePayment> = React.memo((props) => {
   const onChangeIBAN = (e) => {
     const value = e.target.value
     if (!value.includes('_')) {
-      props.onChangeIBANNum(value)
+      props.onChangeIBANNum && props.onChangeIBANNum(value)
     }
   }
 
@@ -35,20 +43,34 @@ const InvoicePayment = (props) => {
   return (
     <StyledInvoiceInformation>
       <StyledInvoicePaymentForm onSubmit={props.onSubmit}>
-        <IBANInput
-          name="ibanNum"
-          label="Search IBAN"
-          onChange={onChangeIBAN}
-        />
-        <Text>Found bank transfer</Text>
-        <SimpleList data={props.data} renderItem={
-          (itemProps) => <InvoiceItem actived={itemProps.id === (props.selected && props.selected.id)} {...itemProps} onClick={() => onSelectItem(itemProps)} />} 
-        />
+        <FormItem>
+          <IBANInput
+            name="ibanNum"
+            label="Search IBAN"
+            onChange={onChangeIBAN}
+          />
+        </FormItem>
+        {
+          props.data && props.data.length > 0
+          && (
+            <>
+              <StyledFoundInvoiceText>Found {props.data.length} payment(s) from bank transfer</StyledFoundInvoiceText>
+              <SimpleList data={props.data} renderItem={
+                (itemProps) => <InvoiceItem actived={itemProps.id === (props.selected && props.selected.id)} {...itemProps} onClick={() => onSelectItem(itemProps)} />} 
+              />
+            </>
+          )
+        }
+
+        {
+          props.data && props.data.length <= 0 && (<StyledFoundInvoiceText>Not found any payments</StyledFoundInvoiceText>)
+        }
+        
         
         <StyledBtnConfirm color="primary" disabled={!props.selected} type="submit">Done</StyledBtnConfirm>
       </StyledInvoicePaymentForm>
     </StyledInvoiceInformation>
   )
-}
+})
 
 export default InvoicePayment

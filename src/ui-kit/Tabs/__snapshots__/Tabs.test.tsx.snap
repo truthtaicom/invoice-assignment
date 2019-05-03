@@ -6,19 +6,19 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-jKJlTe JCtsp"
+        class="sc-jKJlTe hDVchl"
       >
         <div
-          class="sc-eNQAEJ iKllWw"
+          class="sc-eNQAEJ hnUPLL"
         >
           <span
-            class="sc-gzVnrw sc-kEYyzF jiCFch"
+            class="sc-gzVnrw sc-kEYyzF iHvHjM"
             name="tab1"
           >
             Invoice Information
           </span>
           <span
-            class="sc-gzVnrw sc-kEYyzF jiCFch"
+            class="sc-gzVnrw sc-kEYyzF iHvHjM"
             name="tab2"
           >
             Payment
@@ -32,19 +32,19 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-jKJlTe JCtsp"
+      class="sc-jKJlTe hDVchl"
     >
       <div
-        class="sc-eNQAEJ iKllWw"
+        class="sc-eNQAEJ hnUPLL"
       >
         <span
-          class="sc-gzVnrw sc-kEYyzF jiCFch"
+          class="sc-gzVnrw sc-kEYyzF iHvHjM"
           name="tab1"
         >
           Invoice Information
         </span>
         <span
-          class="sc-gzVnrw sc-kEYyzF jiCFch"
+          class="sc-gzVnrw sc-kEYyzF iHvHjM"
           name="tab2"
         >
           Payment

@@ -6,25 +6,25 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-cMljjf kNIQwG"
+        class="sc-gipzik iamTdw"
       >
         <div
-          class="sc-jAaTju jnhfra"
+          class="sc-csuQGl llsbwp"
         >
           <div
-            class="sc-jDwBTQ dWtMUn"
+            class="sc-Rmtcm gwGgYM"
           >
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw gtppSg"
             >
               Invoices List
             </span>
           </div>
           <div
-            class="sc-gPEVay bFVaHF"
+            class="sc-bRBYWo XydFo"
           >
             <button
-              class="sc-bdVaJa eMWQLK"
+              class="sc-bdVaJa jPgALw"
               color="primary"
             >
                Add new invoice 
@@ -32,47 +32,47 @@ Object {
           </div>
         </div>
         <div
-          class="sc-iRbamj bupFeE"
+          class="sc-hzDkRC iNfNWp"
         >
           <div
             class="sc-htoDjs bxSFQy"
           >
             <div
-              class="sc-kkGfuU bxPbff"
+              class="sc-cvbbAY fNiZzk"
             >
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-kkGfuU byBZmt"
               >
                 2018-01-01
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-iAyFgw khoAwh"
               >
                 Rent january
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-hSdWYo jfmkVf"
               >
                 500
                  
                 EUR
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-eHgmQL fbFMfy"
               >
                 DE-12-1234-1234-12345-12
               </span>
               <div
-                class="sc-iAyFgw jeUPJC"
+                class="sc-jWBwVP chDMYI"
               >
                 <button
-                  class="sc-bdVaJa eMWQLK"
+                  class="sc-bdVaJa jPgALw"
                   color="primary"
                 >
                   Edit
                 </button>
                 <button
-                  class="sc-bdVaJa isSLun"
+                  class="sc-bdVaJa KfwOz"
                   color="danger"
                 >
                   Delete
@@ -80,41 +80,41 @@ Object {
               </div>
             </div>
             <div
-              class="sc-kkGfuU bxPbff"
+              class="sc-cvbbAY fNiZzk"
             >
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-kkGfuU byBZmt"
               >
                 2018-01-02
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-iAyFgw khoAwh"
               >
                 Rent january
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-hSdWYo jfmkVf"
               >
-                1500
+                1,500
                  
                 EUR
               </span>
               <span
-                class="sc-gzVnrw fHvJOv"
+                class="sc-gzVnrw sc-eHgmQL fbFMfy"
               >
                 DE-12-1234-1234-12345-12
               </span>
               <div
-                class="sc-iAyFgw jeUPJC"
+                class="sc-jWBwVP chDMYI"
               >
                 <button
-                  class="sc-bdVaJa eMWQLK"
+                  class="sc-bdVaJa jPgALw"
                   color="primary"
                 >
                   Edit
                 </button>
                 <button
-                  class="sc-bdVaJa isSLun"
+                  class="sc-bdVaJa KfwOz"
                   color="danger"
                 >
                   Delete
@@ -128,25 +128,25 @@ Object {
   </body>,
   "container": <div>
     <div
-      class="sc-cMljjf kNIQwG"
+      class="sc-gipzik iamTdw"
     >
       <div
-        class="sc-jAaTju jnhfra"
+        class="sc-csuQGl llsbwp"
       >
         <div
-          class="sc-jDwBTQ dWtMUn"
+          class="sc-Rmtcm gwGgYM"
         >
           <span
-            class="sc-gzVnrw fHvJOv"
+            class="sc-gzVnrw gtppSg"
           >
             Invoices List
           </span>
         </div>
         <div
-          class="sc-gPEVay bFVaHF"
+          class="sc-bRBYWo XydFo"
         >
           <button
-            class="sc-bdVaJa eMWQLK"
+            class="sc-bdVaJa jPgALw"
             color="primary"
           >
              Add new invoice 
@@ -154,47 +154,47 @@ Object {
         </div>
       </div>
       <div
-        class="sc-iRbamj bupFeE"
+        class="sc-hzDkRC iNfNWp"
       >
         <div
           class="sc-htoDjs bxSFQy"
         >
           <div
-            class="sc-kkGfuU bxPbff"
+            class="sc-cvbbAY fNiZzk"
           >
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-kkGfuU byBZmt"
             >
               2018-01-01
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-iAyFgw khoAwh"
             >
               Rent january
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-hSdWYo jfmkVf"
             >
               500
                
               EUR
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-eHgmQL fbFMfy"
             >
               DE-12-1234-1234-12345-12
             </span>
             <div
-              class="sc-iAyFgw jeUPJC"
+              class="sc-jWBwVP chDMYI"
             >
               <button
-                class="sc-bdVaJa eMWQLK"
+                class="sc-bdVaJa jPgALw"
                 color="primary"
               >
                 Edit
               </button>
               <button
-                class="sc-bdVaJa isSLun"
+                class="sc-bdVaJa KfwOz"
                 color="danger"
               >
                 Delete
@@ -202,41 +202,41 @@ Object {
             </div>
           </div>
           <div
-            class="sc-kkGfuU bxPbff"
+            class="sc-cvbbAY fNiZzk"
           >
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-kkGfuU byBZmt"
             >
               2018-01-02
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-iAyFgw khoAwh"
             >
               Rent january
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-hSdWYo jfmkVf"
             >
-              1500
+              1,500
                
               EUR
             </span>
             <span
-              class="sc-gzVnrw fHvJOv"
+              class="sc-gzVnrw sc-eHgmQL fbFMfy"
             >
               DE-12-1234-1234-12345-12
             </span>
             <div
-              class="sc-iAyFgw jeUPJC"
+              class="sc-jWBwVP chDMYI"
             >
               <button
-                class="sc-bdVaJa eMWQLK"
+                class="sc-bdVaJa jPgALw"
                 color="primary"
               >
                 Edit
               </button>
               <button
-                class="sc-bdVaJa isSLun"
+                class="sc-bdVaJa KfwOz"
                 color="danger"
               >
                 Delete

@@ -19,7 +19,6 @@ Object {
           <input
             class="sc-bxivhb cbWYwi"
             type="checkbox"
-            value="false"
           />
           <span
             class="sc-ifAKCX thJpm"
@@ -43,7 +42,6 @@ Object {
         <input
           class="sc-bxivhb cbWYwi"
           type="checkbox"
-          value="false"
         />
         <span
           class="sc-ifAKCX thJpm"

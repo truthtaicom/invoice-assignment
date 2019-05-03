@@ -6,14 +6,58 @@ Object {
   "baseElement": <body>
     <div>
       <div
-        class="sc-kkGfuU fIXoPK"
-      />
+        class="sc-cvbbAY jjfTcm"
+      >
+        <span
+          class="sc-gzVnrw sc-kkGfuU byBZmt"
+        >
+          -
+        </span>
+        <span
+          class="sc-gzVnrw sc-iAyFgw khoAwh"
+        >
+          -
+        </span>
+        <span
+          class="sc-gzVnrw sc-hSdWYo jfmkVf"
+        >
+          -
+           
+        </span>
+        <span
+          class="sc-gzVnrw sc-eHgmQL fbFMfy"
+        >
+          -
+        </span>
+      </div>
     </div>
   </body>,
   "container": <div>
     <div
-      class="sc-kkGfuU fIXoPK"
-    />
+      class="sc-cvbbAY jjfTcm"
+    >
+      <span
+        class="sc-gzVnrw sc-kkGfuU byBZmt"
+      >
+        -
+      </span>
+      <span
+        class="sc-gzVnrw sc-iAyFgw khoAwh"
+      >
+        -
+      </span>
+      <span
+        class="sc-gzVnrw sc-hSdWYo jfmkVf"
+      >
+        -
+         
+      </span>
+      <span
+        class="sc-gzVnrw sc-eHgmQL fbFMfy"
+      >
+        -
+      </span>
+    </div>
   </div>,
   "debug": [Function],
   "findAllByAltText": [Function],
