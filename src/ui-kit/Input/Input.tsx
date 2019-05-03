@@ -26,6 +26,10 @@ const StyledInput = styled.div<IStyledInputWrapper>`
   display: grid;
   grid-template-rows: ${props => props.isActived ? '1fr 1fr' : '1fr' }; 
   padding: 1rem;
+
+  @media only screen and (min-width: 680px) {
+    grid-template-rows: 1fr;
+  }
 `
 
 const StyledInputWrapper = styled.div<IStyledInputWrapper>`
@@ -40,6 +44,7 @@ const StyledInputWrapper = styled.div<IStyledInputWrapper>`
   @media only screen and (min-width: 680px) {
     ${props => props.isExtandHeader ? 'display: none;' : 'display: grid;'}
     ${props => props.isExtandContent ? 'display: grid;' : 'display: none;'}
+    grid-template-columns: 0.8fr 1fr;
   }
 `
 

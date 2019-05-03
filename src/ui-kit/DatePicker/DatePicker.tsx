@@ -12,7 +12,7 @@ export interface IDatePicker {
 const DatePickerWrapper = styled.div`
   input {
     display: block;
-    width: 100%;
+    width: calc(100% - 1.75rem);
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
