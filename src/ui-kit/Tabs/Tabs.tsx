@@ -55,12 +55,8 @@ const StyledTitleItem = styled(Text)<IStyledTitleItem>`
 
 const Tabs = (props) => {
   const [activeTab, setActiveTab] = useState(props.children[0].props.name)
-  const { children, onChange } = props
+  const { children } = props
   const childrenFull = children.filter(elm => elm)
-  const onClick = (value) => {
-    // setActiveTab(value)
-    // if(onChange) onChange(value)
-  }
   
   useEffect(() => {
     setActiveTab(props.defaultActivedTab)
@@ -75,7 +71,7 @@ const Tabs = (props) => {
               key={child.props.name}
               activeTab={activeTab}
               name={child.props.name}
-              onClick={() => onClick(child.props.name)}>
+            >
               {child.props.title}
             </StyledTitleItem>)
           })}

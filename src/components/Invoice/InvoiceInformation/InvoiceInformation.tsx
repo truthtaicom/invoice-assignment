@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import styled from 'styled-components';
 import { Input, DatePicker, ToggleSwitch, Form, FormItem, Button } from '../../../ui-kit'
-import { IInvoiceItem } from '../InvoiceList/InvoiceItem'
 
 
 const StyledInvoiceInformation = styled.div`
@@ -15,10 +14,6 @@ const StyledButtonSubmit = styled(Button)`
   margin: 0 auto;
   width: 100%;
   margin-top: 1rem;
-`
-
-const StyledLabel = styled.div`
-
 `
 
 const InvoiceInformation = React.memo(({ item = { amount: 0, subject: '' }, ...props }: any) => {
