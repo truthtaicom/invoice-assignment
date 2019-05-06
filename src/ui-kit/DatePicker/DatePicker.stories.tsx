@@ -6,7 +6,7 @@ import DatePicker from "./DatePicker"
 storiesOf("UI-Kit/DatePicker", module)
   .add("basic", () => (
     <DatePicker
-      selected={new Date()}
+      selectedDate={new Date()}
       onChange={action('onChange')}
       dateFormat="yyyy-MM-dd"
     />
@@ -14,7 +14,7 @@ storiesOf("UI-Kit/DatePicker", module)
   .add("with label", () => (
     <DatePicker
       label="Date"
-      selected={new Date()}
+      selectedDate={new Date()}
       onChange={action('onChange')}
       dateFormat="yyyy-MM-dd"
     />
