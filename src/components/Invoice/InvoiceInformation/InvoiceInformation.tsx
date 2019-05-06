@@ -14,6 +14,14 @@ const StyledButtonSubmit = styled(Button)`
   margin: 0 auto;
   width: 100%;
   margin-top: 1rem;
+
+  @media only screen and (max-width: 680px) {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      margin-left: -1rem;
+      padding: 1rem;
+  }
 `
 
 const InvoiceInformation = React.memo(({ item = { amount: 0, subject: '' }, ...props }: any) => {

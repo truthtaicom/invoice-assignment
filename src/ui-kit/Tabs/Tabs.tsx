@@ -18,14 +18,6 @@ const StyledTabs = styled.div`
   @media only screen and (max-width: 680px) {
     height: 100%;
     width: 100%;
-
-    button {
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      margin-left: -1rem;
-      padding: 1rem;
-    }
   }
 `
 const StyledTitle = styled.div`

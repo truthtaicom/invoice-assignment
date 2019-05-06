@@ -7,7 +7,7 @@ import "react-datepicker/dist/react-datepicker.css";
 
 export interface IDatePicker {
   label?: string,
-  selectedDate?: Date,
+  selectedDate?: any,
   onChange?: (e: any) => void
 }
 
@@ -31,7 +31,7 @@ const DatePickerWrapper = styled.div`
 const DatePicker: React.FC<ReactDatePickerProps & IDatePicker> = ({ selectedDate, ...props}) => {
   return (
     <DatePickerWrapper>
-      <Input {...props}>
+      <Input {...props} selectedDate={selectedDate}>
         <ReactDatePicker {...props} selected={selectedDate} />
       </Input>
     </DatePickerWrapper>
