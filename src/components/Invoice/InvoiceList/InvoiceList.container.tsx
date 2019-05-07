@@ -1,17 +1,18 @@
+import { bindActionCreators } from "redux";
 import { connect } from "react-redux";
 import InvoiceList from "./InvoiceList";
 import {
-  getInvoices,
-  addInvoice,
-  searchIBAN,
-  editInvoice,
-  deleteInvoice,
-  selectItem,
-  setModeInvoice,
-  resetState,
-  setTabActive,
-  setRetrieveFromBankAcc,
-  selectPaymentItem
+  getInvoicesRequest as getInvoices,
+  addInvoiceAction as addInvoice,
+  searchIBANRequest as searchIBAN,
+  editInvoiceAction as editInvoice,
+  selectItemAction as selectItem,
+  setModeAction as setModeInvoice,
+  resetStateAction as resetState,
+  setTabActiveAction as setTabActive,
+  setRetrieveFromBankAccAction as setRetrieveFromBankAcc,
+  selectPaymentItemAction as selectPaymentItem,
+  deleteInvoiceAction as deleteInvoice
 } from "../Invoice.actions";
 
 const mapStateToProps = state => ({
@@ -27,19 +28,24 @@ const mapStateToProps = state => ({
   selectedPaymentItem: state.invoiceReducer.selectedPaymentItem
 });
 
-const mapDispatchToProps = {
-  getInvoices,
-  addInvoice,
-  editInvoice,
-  deleteInvoice,
-  selectItem,
-  searchIBAN,
-  setModeInvoice,
-  resetState,
-  setTabActive,
-  setRetrieveFromBankAcc,
-  selectPaymentItem
-};
+const mapDispatchToProps = (dispatch: any) => {
+  return bindActionCreators(
+    {
+      getInvoices,
+      addInvoice,
+      editInvoice,
+      deleteInvoice,
+      selectItem,
+      searchIBAN,
+      setModeInvoice,
+      resetState,
+      setTabActive,
+      setRetrieveFromBankAcc,
+      selectPaymentItem
+    },
+    dispatch
+  );
+}
 
 export default connect(
   mapStateToProps,

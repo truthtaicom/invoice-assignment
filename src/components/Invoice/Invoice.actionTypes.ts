@@ -34,7 +34,8 @@ export interface IGetInvoiceFailureAction {
 }
 
 export interface ISearchIBANRequestAction {
-  type: typeof SEARCH_IBAN_REQUEST
+  type: typeof SEARCH_IBAN_REQUEST,
+  payload: string
 }
 
 export interface ISearchIBANSuccessAction {
@@ -54,13 +55,15 @@ export interface IAddInvoiceAction {
 
 export interface IEditInvoiceAction {
   type: typeof EDIT_INVOICE,
-  id?: number,
-  payload: IInvoiceItem
+  payload: {
+    currentItem: IInvoiceItem,
+    changedItem: IInvoiceItem
+  }
 }
 
 export interface IDeleteInvoiceAction {
   type: typeof DELETE_INVOICE,
-  id?: number
+  payload?: number
 }
 
 export interface IRetrieveAmountAction {

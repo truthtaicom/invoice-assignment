@@ -36,12 +36,12 @@ const InvoiceInformation = React.memo(({ item = { amount: 0, subject: '' }, ...p
     setSubject(item.subject)
   }, [item.amount, item.subject])
 
+  useEffect(() => {
+    props.onRetriveFromBankAcc(isRetrieve)
+  }, [props, isRetrieve])
+
   const datePickerOnchange = (value) => { setDate(value) }
-  
-  const toggleSwitchOnchange = (value) => {
-    setIsRetrive(value)
-    props.onRetriveFromBankAcc(value)
-  }
+  const toggleSwitchOnchange = (value) => setIsRetrive(value)
   
   
   const subjectOnchange = (e) => { setSubject(e.target.value) }

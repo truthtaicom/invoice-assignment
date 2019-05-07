@@ -70,21 +70,22 @@ describe('actions', () => {
   })
 
   it('should create an action to edit invoice', () => {
-    const text = 'edit'
     const expectedAction = {
       type: types.EDIT_INVOICE,
-      id: 1,
-      payload: text
+      payload: {
+        currentItem: { id: 500 },
+        changedItem: { id: 1, amount: 5000 }
+      }
     }
-    expect(actions.editInvoiceAction(1, text)).toEqual(expectedAction)
+    expect(actions.editInvoiceAction({ id: 500 }, { id: 1, amount: 5000 })).toEqual(expectedAction)
   })
 
   it('should create an action to delete invoice', () => {
     const expectedAction = {
       type: types.DELETE_INVOICE,
-      id: 1,
+      payload: 1,
     }
-    expect(actions.deleteInvoiceAction(1)).toEqual(expectedAction)
+    expect(actions.deleteInvoiceAction({ id: 1 })).toEqual(expectedAction)
   })
 
   it('should create an action to retrieve amount', () => {

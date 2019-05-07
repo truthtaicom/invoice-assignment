@@ -4,6 +4,7 @@
 
 - ✅ ReactJS
 - ✅ Redux
+- ✅ Redux-saga
 - ✅ Typescript
 - ✅ Styled-Component
 - ✅ Storybook
