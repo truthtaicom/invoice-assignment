@@ -4,6 +4,7 @@
 
 - ✅ ReactJS
 - ✅ Redux
+- ✅ Redux-thunk
 - ✅ Typescript
 - ✅ Styled-Component
 - ✅ Storybook
