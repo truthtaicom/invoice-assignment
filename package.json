@@ -58,6 +58,7 @@
     "jest-dom": "^3.1.4",
     "react-docgen-typescript-loader": "^3.1.0",
     "react-testing-library": "^7.0.0",
+    "redux-mock-store": "^1.5.3",
     "ts-jest": "^24.0.2",
     "typescript": "^3.4.5"
   }

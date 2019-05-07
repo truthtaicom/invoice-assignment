@@ -11,12 +11,12 @@ export interface IInvoiceState {
   data: IInvoiceItem[],
   error: typeof Error | null,
   paymentsFromBankAccount: IInvoiceItem[],
-  selectedItem?: IInvoiceItem |  null,
+  selectedItem?: IInvoiceItem,
   modeInvoiceModal: string,
   isDeleteMode: boolean,
   activedTab: string,
   isRetrieveFromBankAcc: boolean,
-  selectedPaymentItem: IInvoiceItem | null
+  selectedPaymentItem: IInvoiceItem
 }
 
 const initialState: IInvoiceState = {
@@ -24,12 +24,12 @@ const initialState: IInvoiceState = {
   data: [],
   error: null,
   paymentsFromBankAccount: [],
-  selectedItem: null,
+  selectedItem: {},
   modeInvoiceModal: '',
   isDeleteMode: false,
   activedTab: 'ii',
   isRetrieveFromBankAcc: false,
-  selectedPaymentItem: null
+  selectedPaymentItem: {}
 }
 
 export function invoiceReducer(
@@ -62,8 +62,8 @@ export function invoiceReducer(
         ...state,
         data: [{
           ...action.payload,
-          amount: state.selectedPaymentItem ? state.selectedPaymentItem.amount : action.payload.amount,
-          ibanNum: state.selectedPaymentItem ? state.selectedPaymentItem.ibanNum : action.payload.ibanNum
+          amount: state.selectedPaymentItem.amount || action.payload.amount,
+          ibanNum: state.selectedPaymentItem.ibanNum || action.payload.ibanNum
         }, 
           ...state.data
         ]
@@ -74,19 +74,12 @@ export function invoiceReducer(
         ...state,
         data: state.data.map((elm) => {
           if(elm.id === action.id) {
-            const newElm = {
+            return {
               ...elm,
               ...state.selectedItem,
-              ...action.payload
+              ...action.payload,
+              ...state.selectedPaymentItem
             }
-            if (state.selectedPaymentItem) {
-              return {
-                ...newElm,
-                amount: state.selectedPaymentItem.amount,
-                ibanNum: state.selectedPaymentItem.ibanNum
-              }
-            }
-            return newElm
           }
           return elm
         })
@@ -147,11 +140,11 @@ export function invoiceReducer(
     case RESET_STATE:
       return {
         ...state,
-        selectedItem: null,
+        selectedItem: {},
         modeInvoiceModal: '',
         isDeleteMode: false,
         isRetrieveFromBankAcc: false,
-        selectedPaymentItem: null,
+        selectedPaymentItem: {},
         paymentsFromBankAccount: [],
         activedTab: 'ii'
       }  

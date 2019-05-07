@@ -8,12 +8,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
 
     const result = invoiceReducer(undefined, { type: types.GET_INVOICES_REQUEST })
@@ -25,12 +25,12 @@ describe('reducer', () => {
       data: [{ id: 1 }],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
 
     const result = invoiceReducer(undefined, { type: types.GET_INVOICES_SUCCESS, payload: [{ id: 1 }] })
@@ -42,12 +42,12 @@ describe('reducer', () => {
       data: [],
       error: Error,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.GET_INVOICES_FAILURE, error: Error })
     expect(result).toEqual(expected)
@@ -58,12 +58,12 @@ describe('reducer', () => {
       data: [{ amount: 1, ibanNum: '1' }],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.ADD_INVOICE, payload: { amount: 1, ibanNum: '1' } })
     expect(result).toEqual(expected)
@@ -74,12 +74,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.EDIT_INVOICE, payload: { id: 1, amount: 1, ibanNum: '1'} })
     expect(result).toEqual(expected)
@@ -90,12 +90,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.DELETE_INVOICE, payload: { id: 1, amount: 1, ibanNum: '1'} })
     expect(result).toEqual(expected)
@@ -106,12 +106,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SEARCH_IBAN_REQUEST })
     expect(result).toEqual(expected)
@@ -122,12 +122,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [{ id: 1 }],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SEARCH_IBAN_SUCCESS, payload: [{ id: 1 }] })
     expect(result).toEqual(expected)
@@ -138,12 +138,12 @@ describe('reducer', () => {
       data: [],
       error: Error,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SEARCH_IBAN_FAILURE, error: Error })
     expect(result).toEqual(expected)
@@ -159,7 +159,7 @@ describe('reducer', () => {
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SELECT_ITEM, payload: { id: 1} })
     expect(result).toEqual(expected)
@@ -175,7 +175,7 @@ describe('reducer', () => {
       isDeleteMode: true,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SET_MODE, payload: { id: 1 }, mode: 'DELETE' })
     expect(result).toEqual(expected)
@@ -186,12 +186,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SET_TAB_ACTIVE, payload: "ii" })
     expect(result).toEqual(expected)
@@ -202,12 +202,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: true,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.SET_RETRIEVE_FROM_BANK_ACC, payload: true })
     expect(result).toEqual(expected)
@@ -218,7 +218,7 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
@@ -234,12 +234,12 @@ describe('reducer', () => {
       data: [],
       error: null,
       paymentsFromBankAccount: [],
-      selectedItem: null,
+      selectedItem: {},
       modeInvoiceModal: '',
       isDeleteMode: false,
       activedTab: 'ii',
       isRetrieveFromBankAcc: false,
-      selectedPaymentItem: null
+      selectedPaymentItem: {}
     }
     const result = invoiceReducer(undefined, { type: types.RESET_STATE })
     expect(result).toEqual(expected)
